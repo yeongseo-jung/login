@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import Home from "./pages/FirstPage";
 import Login from "./pages/LogIn";
-import Explanation from './pages/Explanation';
+import Explanation from "./pages/Explanation";
 
 function App() {
   return (

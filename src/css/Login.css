@@ -155,3 +155,34 @@ html,
     color:#23640C;
     text-decoration-line: none;
 }
+
+#join_choose{
+    position: absolute;
+    background-color: white;
+    border: 1px solid #1C741B;
+    border-radius: 40px;
+    width: 600px;
+    height: 300px;
+    left: 500px;
+    top: 200px;
+    opacity: 0;
+}
+
+#join_choose_form{
+    margin-left: 550px;
+    margin-top: 15px;
+    border: 1px solid white;
+    background-color: white;
+}
+
+#join_choose_btn{
+    width: 300px;
+    height: 230px;
+    border: none;
+    background-color: white;
+    background-image: url('../arror.jpg');
+    background-repeat: no-repeat;
+    background-position: 190px 125px;
+    font-size: medium;
+    font-weight: bolder;
+}

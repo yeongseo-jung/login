@@ -5,6 +5,13 @@ import '../css/Login.css';
 export default function Login() {
   const navigate = useNavigate();
 
+  const show=() =>{
+    document.getElementById("join_choose").style.opacity="1";
+  }
+  const hide=() =>{
+    document.getElementById("join_choose").style.opacity = "0";
+  }
+
   return (
     <div className="container_lg">
       <div className='header_lg'>
@@ -32,8 +39,13 @@ export default function Login() {
         </div>
         <div className='footer_lg'>
           <span id='footer_lg_lb'>아직 계정이 없으신가요 ? </span>
-          <a href='' id='footer_lg_up'>Sign up</a>
+          <a onClick={show} id='footer_lg_up'>Sign up</a>
         </div>
+      </div>
+      <div id='join_choose'>
+        <button onClick={hide} id='join_choose_form'>X</button><br/>
+        <button onClick={() => navigate('/')} id='join_choose_btn'>멘토 / 상담사용 <br/>회원가입</button>
+        <button onClick={() => navigate('/')} id='join_choose_btn'>멘티 / 상담자용 <br/>회원가입</button>
       </div>
     </div>
   );
