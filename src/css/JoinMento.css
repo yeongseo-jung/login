@@ -44,9 +44,14 @@ html,
 }
 
 #join_content_two{
-  font-size:small;
+  font-size:13px;
   color:#7CB069;
 }
+
+#join_content_three{
+    font-size:8px;
+    color:red;
+  }
 
 .join_form{
   margin-top: 15px;
@@ -219,7 +224,7 @@ html,
   margin-left: 55px;
 }
 
-#footer_join_mento{
+#footer_join_menti{
   font-size: 7pt;
   color: rgba(0,0,0,0.5);
 }
@@ -230,13 +235,13 @@ html,
   margin-left: 40px;
 }
 
-#footer_join_menti_up{
+#footer_join_mento_up{
   font-size: 7pt;
   color:#23640C;
   text-decoration-line: none;
 }
 
-#footer_join_menti_in{
+#footer_join_mento_in{
   font-size: 7pt;
   color:#23640C;
   text-decoration-line: none;

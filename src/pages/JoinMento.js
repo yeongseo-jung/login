@@ -1,8 +1,8 @@
 import React from 'react';
 import { useNavigate } from "react-router-dom";
-import '../css/JoinMenti.css';
+import '../css/JoinMento.css';
 
-export default function JoinMenti() {
+export default function JoinMento() {
   const navigate = useNavigate();
 
   return (
@@ -13,8 +13,9 @@ export default function JoinMenti() {
       </div>
       <div className='join'>
         <div className='join_name'>
-            <span id='join_content_one'>친해지자(상담자/멘티 회원가입)</span><br/><br/>
-            <span id='join_content_two'>고민상담과 멘토링이 필요할땐 우리 언제든 <span id='lg_content_two_name'>친해지자</span></span>
+            <span id='join_content_one'>친해지자(상담사/멘토 회원가입)</span><br/>
+            <span id='join_content_two'>고민상담과 멘토링이 필요할땐 우리 언제든 <span id='lg_content_two_name'>친해지자</span></span><br/>
+            <span id='join_content_three'>* 회원가입 후 필요 서류를 제출하셔야 인증이 완료됩니다</span>
           </div>
           <div className='join_form'>
           <label id='name_lb_join'>이름 <a id='red'>*</a></label><br/>
@@ -39,12 +40,12 @@ export default function JoinMenti() {
           <button onClick={() => navigate('/')} id='kakaolg'>카카오로 회원가입</button>
         </div>
         <div className='footer_join'>
-          <span id='footer_join_mento'>전문가 사용자로 가입하기 </span>
+          <span id='footer_join_mento'>일반 사용자로 가입하기 </span>
           <button id='arrow_join' >   </button>
-          <a onClick={() => navigate('/JoinMento')} id='footer_join_menti_up'>Sign up</a>
+          <a onClick={() => navigate('/JoinMenti')} id='footer_join_mento_up'>Sign up</a>
           <span id='footer_join_no'>이미 계정이 있으신가요? </span>
           <button id='arrow_join' >   </button>
-          <a onClick={() => navigate('/LogIn')} id='footer_join_menti_in'>Sign in</a>
+          <a onClick={() => navigate('/LogIn')} id='footer_join_mento_in'>Sign in</a>
         </div>
       </div>
     </div>
