@@ -9,7 +9,7 @@ export default function Login() {
     <div className="container_lg">
       <div className='header_lg'>
         <a href='' id='logo'></a>
-        <a href='' id='whatis'>"친해지자"란?</a>
+        <a onClick={() => navigate('/Explanation')} id='whatis'>"친해지자"란?</a>
     </div>
       <div className='login'>
         <div className='login_name'>
