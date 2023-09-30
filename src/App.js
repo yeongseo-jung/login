@@ -6,7 +6,8 @@ import {
 } from "react-router-dom";
 import Home from "./pages/FirstPage";
 import Login from "./pages/LogIn";
-import Explanation from "./pages/Explanation";
+import Explanation from "./pages/Explan";
+import JoinMenti from "./pages/JoinMenti";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="login" element={<Login />} />
         <Route path="explanation" element={<Explanation />} />
+        <Route path="JoinMenti" element={<JoinMenti />} />
       </Routes>
     </BrowserRouter>
     </body>

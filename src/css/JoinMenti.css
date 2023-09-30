@@ -1,0 +1,252 @@
+html,
+      body {
+        width: 100vs;
+        height: 100vh;
+        margin: 0px;
+      }
+
+.container_join{
+    width: 100%;
+    height: 100%;
+    background-image: url( "../login_bg.JPG" );
+    background-size: cover;
+    position: relative;
+}
+
+#whatis{
+    text-decoration-line: none;
+    color: #166F00;
+    font-weight: bolder;
+    float: right;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.join{
+  position: absolute;
+    top: 10%;
+    left: 35%;
+    width: 500px;
+    height: 500px;
+    border: 1px solid white;
+    background-color:white;
+}
+
+.join_name{
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+#join_content_one{
+  color:#287D0A;
+  font-size: x-large;
+  font-weight:1000;
+}
+
+#join_content_two{
+  font-size:small;
+  color:#7CB069;
+}
+
+.join_form{
+  margin-top: 15px;
+  margin-left: 35px;
+}
+
+#name_lb_join{
+  color: rgba(26, 23, 23, 0.38);
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 7px;
+}
+
+#name_form_join{
+  border-radius: 8px;
+  border: 1px solid #1F500D;
+  background: #FFF;
+  width: 370px;
+  height: 3px;
+  padding: 10px;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+#red{
+  color: red;
+}
+
+#email_lb_join{
+  color: rgba(26, 23, 23, 0.38);
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 7px;
+}
+
+#email_form_join{
+  border-radius: 8px;
+  border: 1px solid #1F500D;
+  background: #FFF;
+  width: 370px;
+  height: 3px;
+  padding: 10px;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+#number_lb_join{
+  color: rgba(26, 23, 23, 0.38);
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 7px;
+}
+
+#number_form_join{
+  border-radius: 8px;
+  border: 1px solid #1F500D;
+  background: #FFF;
+  width: 370px;
+  height: 3px;
+  padding: 10px;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+#passwd_lb_join{
+  color: rgba(26, 23, 23, 0.38);
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 7px;
+}
+
+#passwd_form_join{
+  border-radius: 8px;
+  border: 1px solid #1F500D;
+  background: #FFF;
+  width: 370px;
+  height: 3px;
+  padding: 10px;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+#passwdchk_lb_join{
+  color: rgba(26, 23, 23, 0.38);
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 7px;
+}
+
+#passwdchk_form_join{
+  border-radius: 8px;
+  border: 1px solid #1F500D;
+  background: #FFF;
+  width: 370px;
+  height: 3px;
+  padding: 10px;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+#location_lb_join{
+  color: rgba(26, 23, 23, 0.38);
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 7px;
+}
+
+#location_join{
+  color: white;
+  font-size: 7px;
+  border-radius: 8px;
+  background: #1A430C;
+  margin-top: 7px;
+  margin-left: 7px;
+}
+
+.join_check{
+  margin-top: 20px;
+  margin-left: 65px;
+}
+
+#agreement_one{
+  color:#344054;
+  font-size: small;
+}
+
+#agree_one_chk{
+  position: relative;
+  color:#D0D5DD;
+  top: 2px;
+}
+
+#agreement_two{
+  color:#344054;
+  font-size: small;
+}
+
+#agree_two_chk{
+  position: relative;
+  color:#D0D5DD;
+  top: 2px;
+  margin-left: 110px;
+}
+
+.footer_join{
+  margin-top:10px;
+  margin-left: 70px;
+}
+
+#footer_join_mento{
+  font-size: 7pt;
+  color: rgba(0,0,0,0.5);
+}
+
+#footer_join_no{
+  font-size: 7pt;
+  color: rgba(0,0,0,0.5);
+  margin-left: 40px;
+}
+
+#footer_join_menti_up{
+  font-size: 7pt;
+  color:#23640C;
+  text-decoration-line: none;
+}
+
+#footer_join_menti_in{
+  font-size: 7pt;
+  color:#23640C;
+  text-decoration-line: none;
+}
+
+#arrow_join{
+  width: 7px;
+  height: 7px;
+  background-image: url('../arrow_join.jpg');
+  background-repeat: no-repeat;
+  border: none;
+  background-color: white;
+}
