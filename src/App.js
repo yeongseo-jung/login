@@ -9,6 +9,7 @@ import Login from "./pages/LogIn";
 import Explanation from "./pages/Explan";
 import JoinMenti from "./pages/JoinMenti";
 import JoinMento from "./pages/JoinMento";
+import Counsel from "./pages/Counsel";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="explanation" element={<Explanation />} />
         <Route path="JoinMenti" element={<JoinMenti />} />
         <Route path="JoinMento" element={<JoinMento />} />
+        <Route path="Counsel" element={<Counsel />} />
       </Routes>
     </BrowserRouter>
     </body>
