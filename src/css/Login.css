@@ -1,5 +1,157 @@
-.login{
+html,
+      body {
+        width: 100vs;
+        height: 100vh;
+        margin: 0px;
+      }
+
+.container_lg{
+    width: 100%;
+    height: 100%;
     background-image: url( "../login_bg.JPG" );
-    width: 2130px;
-    height: 1185px;
+    background-size: cover;
+    position: relative;
+}
+
+
+#whatis{
+    text-decoration-line: none;
+    color: #166F00;
+    font-weight: bolder;
+    float: right;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.login{
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    width: 500px;
+    height: 500px;
+    border: 1px solid white;
+    background-color:white;
+}
+
+.login_name{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#lg_content_one{
+    color:#287D0A;
+    font-size: xx-large;
+    font-weight:1000;
+}
+
+#lg_content_two{
+    padding-top:10%;
+    font-size:small;
+    color:#7CB069;
+}
+
+.login_form{
+    margin-top: 30px;
+    margin-left: 35px;
+}
+
+.login_check{
+    margin-top: 30px;
+    margin-left: 65px;
+}
+
+#email_lb{
+    color: #1A1717;
+    opacity: 38%;
+}
+
+#email_form{
+    border: 1px solid #1F500D;
+    border-radius: 8px;
+    width: 400px;
+    height:20px ;
+    padding-left: 10px;
+    margin-top: 15px;
+    color: rgba(102, 112, 133, 0.58);
+}
+
+#lg_content_two_name{
+    color:#287D0A;
+    font-weight: bold;
+}
+
+#passwd_lb{
+    color: #1A1717;
+    opacity: 38%;
+}
+
+#passwd_form{
+    border: 1px solid #1F500D;
+    border-radius: 8px;
+    width: 400px;
+    height: 20px;
+    padding-left: 10px;
+    margin-top: 15px;
+}
+
+#id_save{
+    color:#344054;
+    font-size: small;
+}
+
+#id_check{
+    position: relative;
+    color:#D0D5DD;
+    top: 2px;
+}
+
+#forget{
+    color: #23600E;
+    font-size: small;
+    font-weight: bold;
+    margin-left: 150px;
+    text-decoration-line: none;
+}
+
+.login_btn{
+    margin-top: 30px;
+    margin-left: 41px;
+}
+
+#logincom{
+    width: 400px;
+    height: 30px;
+    background-color: #1A430C;
+    border: 1px solid #1A430C;
+    border-radius: 8px;
+    color:white;
+}
+
+#kakaolg{
+    width: 400px;
+    height: 30px;
+    margin-top: 20px;
+    background-color: #F7E600;
+    background-image: url('../kakao.jpg');
+    background-position: 15px;
+    background-repeat: no-repeat;
+    border:1px solid yellow;
+    border-radius: 8px;
+    color:black;
+}
+
+.footer_lg{
+    margin-top:10px;
+    margin-left: 140px;
+}
+
+#footer_lg_lb{
+    font-size: 10pt;
+    color: rgba(0,0,0,0.5);
+}
+
+#footer_lg_up{
+    font-size: 10pt;
+    color:#23640C;
+    text-decoration-line: none;
 }
