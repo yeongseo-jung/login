@@ -13,6 +13,17 @@ html,
     position: relative;
 }
 
+@font-face { 
+    font-family: "sea";
+    src: url("../font/Yeongdeok Sea.ttf") format("truetype");
+    font-weight: normal;
+  }
+
+.container_lg_t{
+    width:100%;
+    height:100%;
+    background-color:rgba(97, 130, 100, 0.8)
+}
 
 #whatis{
     text-decoration-line: none;
@@ -26,41 +37,75 @@ html,
 .login{
     position: absolute;
     top: 15%;
-    left: 35%;
-    width: 500px;
-    height: 500px;
+    left: 15%;
+    width: 70%;
+    height: 70%;
     border: 1px solid white;
+    border-radius:25px;
+    background-color: rgb(243, 253, 232,0.9);
+}
+
+.login_left{
+    position:absolute;
+    background: rgb(243, 253, 232,0.7);
+    border:1px solid #F3FDE8;
+    border-radius: 0px 0px 0px 25px;
+    width:35%;
+    height:45%;
+    top:55%;
+}
+
+#login_il{
+    position:absolute;
+    top:20%;
+    width:55%;
+    height:45%;
+    background-image: url('../login_il.png');
+}
+
+.login_right{
+    position:absolute;
+    left:35%;
+    top:0;
+    width:65%;
+    height:100%;
     background-color:white;
+    border:1px solid white;
+    border-radius: 0px  25px 25px 0px;
 }
 
 .login_name{
-    margin-top: 30px;
-    margin-left: 30px;
+    margin-top: 10%;
+    margin-left: 17%;
 }
 
 #lg_content_one{
     color:#287D0A;
-    font-size: xx-large;
+    font-size:70px;
     font-weight:1000;
+    font-family: 'sea', serif;
 }
 
 #lg_content_two{
+    padding-left:2%;
     padding-top:10%;
-    font-size:small;
+    font-size:20px;
     color:#7CB069;
+    font-family: 'sea', serif;
 }
 
 .login_form{
-    margin-top: 30px;
-    margin-left: 35px;
+    margin-top: 5%;
+    margin-left: 20%;
 }
 
 .login_check{
     margin-top: 30px;
-    margin-left: 65px;
+    margin-left: 300px;
 }
 
 #email_lb{
+    font-size:20px;
     color: #1A1717;
     opacity: 38%;
 }
@@ -68,8 +113,11 @@ html,
 #email_form{
     border: 1px solid #1F500D;
     border-radius: 8px;
-    width: 400px;
-    height:20px ;
+    width: 75%;
+    height:300%;
+    font-size:15px;
+    padding-top:1%;
+    padding-bottom:1%;
     padding-left: 10px;
     margin-top: 15px;
     color: rgba(102, 112, 133, 0.58);
@@ -81,6 +129,7 @@ html,
 }
 
 #passwd_lb{
+    font-size:20px;
     color: #1A1717;
     opacity: 38%;
 }
@@ -88,15 +137,18 @@ html,
 #passwd_form{
     border: 1px solid #1F500D;
     border-radius: 8px;
-    width: 400px;
-    height: 20px;
+    width: 75%;
+    height:300%;
+    font-size:15px;
+    padding-top:1%;
+    padding-bottom:1%;
     padding-left: 10px;
     margin-top: 15px;
 }
 
 #id_save{
     color:#344054;
-    font-size: small;
+    font-size: medium;
 }
 
 #id_check{
@@ -107,20 +159,23 @@ html,
 
 #forget{
     color: #23600E;
-    font-size: small;
+    font-size: medium;
     font-weight: bold;
     margin-left: 150px;
     text-decoration-line: none;
 }
 
 .login_btn{
-    margin-top: 30px;
-    margin-left: 41px;
+    margin-top: 5%;
+    margin-left: 205px;
 }
 
 #logincom{
-    width: 400px;
-    height: 30px;
+    width: 75%;
+    height:200%;
+    font-size:20px;
+    padding-bottom:1%;
+    padding-top:1%;
     background-color: #1A430C;
     border: 1px solid #1A430C;
     border-radius: 8px;
@@ -128,9 +183,12 @@ html,
 }
 
 #kakaolg{
-    width: 400px;
-    height: 30px;
-    margin-top: 20px;
+    width: 75%;
+    height: 200%;
+    margin-top: 3%;
+    font-size:20px;
+    padding-bottom:1%;
+    padding-top:1%;
     background-color: #F7E600;
     background-image: url('../kakao.jpg');
     background-position: 15px;
@@ -141,17 +199,17 @@ html,
 }
 
 .footer_lg{
-    margin-top:10px;
-    margin-left: 140px;
+    margin-top:5%;
+    margin-left: 360px;
 }
 
 #footer_lg_lb{
-    font-size: 10pt;
+    font-size: 12pt;
     color: rgba(0,0,0,0.5);
 }
 
 #footer_lg_up{
-    font-size: 10pt;
+    font-size: 12pt;
     color:#23640C;
     text-decoration-line: none;
 }
