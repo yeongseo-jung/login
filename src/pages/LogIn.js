@@ -6,12 +6,12 @@ export default function Login() {
   const navigate = useNavigate();
 
   const show=() =>{
-    document.getElementById("join_choose").style.opacity="1";
+    document.getElementById("join_choose").style.visibility="visible";
   }
   const hide=() =>{
-    document.getElementById("join_choose").style.opacity = "0";
+    document.getElementById("join_choose").style.visibility = "hidden";
   }
-
+  
   return (
     <div className="container_lg">
       <div className="container_lg_t">

@@ -19,6 +19,12 @@ html,
     font-weight: normal;
   }
 
+@font-face { 
+    font-family: "road";
+    src: url("../font/Yeongdeok Blueroad.ttf") format("truetype");
+    font-weight: normal;
+  }
+
 .container_lg_t{
     width:100%;
     height:100%;
@@ -219,28 +225,31 @@ html,
     background-color: white;
     border: 1px solid #1C741B;
     border-radius: 40px;
-    width: 600px;
-    height: 300px;
-    left: 500px;
-    top: 200px;
-    opacity: 0;
+    width: 60%;
+    height: 40%;
+    left: 20%;
+    top: 30%;
+    visibility: hidden;
 }
 
 #join_choose_form{
-    margin-left: 550px;
-    margin-top: 15px;
+    margin-left: 95%;
+    margin-top: 2%;
     border: 1px solid white;
     background-color: white;
 }
 
 #join_choose_btn{
-    width: 300px;
+    width: 50%;
     height: 230px;
     border: none;
     background-color: white;
     background-image: url('../arrow.jpg');
     background-repeat: no-repeat;
-    background-position: 190px 125px;
-    font-size: medium;
+    background-position: 68% 62%;
+    font-size: 30px;
+    color:#618264;
     font-weight: bolder;
+    font-family: 'road', serif;
+    
 }
