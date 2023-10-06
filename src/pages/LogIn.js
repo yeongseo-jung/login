@@ -11,6 +11,11 @@ export default function Login() {
   const hide=() =>{
     document.getElementById("join_choose").style.visibility = "hidden";
   }
+
+  const signin=() =>{
+    document.getElementById('login').submit();
+    navigate('/');
+  }
   
   return (
     <div className="container_lg">
@@ -18,7 +23,7 @@ export default function Login() {
         <div className='header_lg'>
           <div className='logo'></div>
         </div>
-        <div className='login'>
+        <form id='login'>
         <div className='login_left'></div>
           <div id='login_il' />
           <div className='login_right'>
@@ -29,16 +34,16 @@ export default function Login() {
           </div>
           <div className='login_form'>
             <label id='email_lb'>Email</label><br/>
-            <input type="email" id="email_form" placeholder="example@naver.com" /><br/><br/>
+            <input type="email" name='email' id="email_form" placeholder="example@naver.com" value=''/><br/><br/>
             <label id='passwd_lb'>Password</label><br/>
-            <input type="password" id="passwd_form" required />
+            <input type="password" name='passwd' id="passwd_form" value='' required />
           </div>
           <div className='login_check'>
             <label id='id_save'><input type="checkbox" id='id_check' name="color" value="blue" /> 아이디 저장</label>
             <a href='' id='forget'>Forgot Password?</a>
           </div>
           <div className='login_btn'>
-            <button onClick={() => navigate('/')} id='logincom'>Sign in</button><br/>
+            <button onClick={signin} id='logincom'>Sign in</button><br/>
             <button onClick={() => navigate('/')} id='kakaolg'>카카오로 로그인</button>
           </div>
           <div className='footer_lg'>
@@ -51,7 +56,7 @@ export default function Login() {
           <button onClick={() => navigate('/JoinMento')} id='join_choose_btn'>멘토 / 상담사용 <br/>회원가입</button>
           <button onClick={() => navigate('/JoinMenti')} id='join_choose_btn'>멘티 / 상담자용 <br/>회원가입</button>
         </div>
-        </div>
+        </form>
       </div>
     </div>
   );
