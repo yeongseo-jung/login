@@ -5,11 +5,16 @@ import '../css/JoinMenti.css';
 export default function JoinMenti() {
   const navigate = useNavigate();
 
+  const signup=() =>{
+    document.getElementById('join').submit();
+    navigate('/');
+  }
+
   return (
     <div className="container_join">
       <div className="container_jo_t">
         <div className='join'>
-        <form id='join'>
+        <form id='join' method="POST" action="/members/new">
           <div className='join_left'></div>
           <div id='join_il' />
           <div className='join_right'>
@@ -37,7 +42,7 @@ export default function JoinMenti() {
               <label id='agreement_two'><input type="checkbox" id='agree_two_chk' name="color" value="blue" /> 개인정보 제공 동의</label>
             </div>
             <div className='join_btn'>
-              <button onClick={() => navigate('/')} id='joincom'>Sign up</button><br/>
+              <button onClick={signup} id='joincom'>Sign up</button><br/>
               <button onClick={() => navigate('/')} id='kakaojo'>카카오로 회원가입</button>
             </div>
             <div className='footer_join'>

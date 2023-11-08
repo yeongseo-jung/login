@@ -106,8 +106,8 @@ html,
 }
 
 .login_check{
-    margin-top: 30px;
-    margin-left: 300px;
+    margin-top: 5%;
+    margin-left: 30%;
 }
 
 #email_lb{
@@ -173,7 +173,7 @@ html,
 
 .login_btn{
     margin-top: 5%;
-    margin-left: 205px;
+    margin-left: 22%;
 }
 
 #logincom{
@@ -206,7 +206,7 @@ html,
 
 .footer_lg{
     margin-top:5%;
-    margin-left: 360px;
+    margin-left: 38%;
 }
 
 #footer_lg_lb{

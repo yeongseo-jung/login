@@ -1,0 +1,76 @@
+html,
+      body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+      }
+
+.mypage_pointsplus{
+    position: absolute;
+    width: 70%;
+    height: 75%;
+    left: 20%;
+    top: 17%;
+}
+
+#mypage_pointsplus_one{
+    position: absolute;
+    left: 1%;
+    font-size:35px;
+    font-weight:600;
+    color:rgba(4, 35, 11,0.8);
+    font-family: 'counselname', serif;
+}
+
+#mypage_pointplus_table_one{
+    position: absolute;
+    left: 1%;
+    top:3%;
+    width: 25%;
+    height: 30%;
+    margin: 5%;
+}
+
+#pointshead{
+    position: absolute;
+    left: 1%;
+    top:3%;
+    margin: 5%;
+}
+
+#pointstbody{
+    position: absolute;
+    margin-top:20%;
+    left: 3%;
+}
+
+#priceinput{
+    position: absolute;
+    left: 53%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 40%;
+    height: 5%;
+    font-size: large;
+    top: 15%;
+}
+
+#mypage_pointsplus_two{
+    position: absolute;
+    top: 25%;
+    left: 54%;
+    font-size:150%;
+    font-weight: 700;
+    border: 1px solid black;
+    border-radius: 20%;
+    background-color: white;
+    width: 38%;
+    height: 5%;
+}
+
+#morelist{
+    position: absolute;
+    left: 5%;
+    top: 50%;
+}

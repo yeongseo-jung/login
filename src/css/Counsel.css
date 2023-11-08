@@ -16,12 +16,12 @@ html,
 
 .counsel{
     position: absolute;
-    top: 0%;
-    left: 25%;
+    top: 15%;
+    left: 15%;
     border: 1px solid white;
-    width: 700px;
-    height: 750px;
-    background-image: url("../board.PNG");
+    width: 70%;
+    height: 70%;
+    background-image: url("../counsel_bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     border: none;

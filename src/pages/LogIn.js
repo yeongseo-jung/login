@@ -23,7 +23,7 @@ export default function Login() {
         <div className='header_lg'>
           <div className='logo'></div>
         </div>
-        <form id='login'>
+        <form id='login' method="POST" action="/login">
         <div className='login_left'></div>
           <div id='login_il' />
           <div className='login_right'>
@@ -34,9 +34,9 @@ export default function Login() {
           </div>
           <div className='login_form'>
             <label id='email_lb'>Email</label><br/>
-            <input type="email" name='email' id="email_form" placeholder="example@naver.com" value=''/><br/><br/>
+            <input type="email" name='email' id="email_form" placeholder="example@naver.com"/><br/><br/>
             <label id='passwd_lb'>Password</label><br/>
-            <input type="password" name='passwd' id="passwd_form" value='' required />
+            <input type="password" name='passwd' id="passwd_form"  required />
           </div>
           <div className='login_check'>
             <label id='id_save'><input type="checkbox" id='id_check' name="color" value="blue" /> 아이디 저장</label>
