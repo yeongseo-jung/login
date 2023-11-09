@@ -28,8 +28,8 @@ html,
     height: 20%;
     left: 8%;
     top: 12%;
-    border: 1px solid rgba(55, 152, 222, 0.7);
-    background-color: rgba(55, 152, 222, 0.7);
+    border: 1px solid rgba(40, 125, 10, 0.5);
+    background-color: rgba(40, 125, 10, 0.5);
 }
 
 .mypage_points_contwo{
@@ -38,8 +38,8 @@ html,
     height: 20%;
     left: 55%;
     top: 12%;
-    border: 1px solid rgba(55, 152, 222, 0.7);
-    background-color: rgba(55, 152, 222, 0.7);
+    border: 1px solid rgba(40, 125, 10, 0.5);
+    background-color: rgba(40, 125, 10, 0.5);
 }
 
 .mypage_points_conthree{
@@ -48,8 +48,8 @@ html,
     height: 20%;
     left: 8%;
     top: 40%;
-    border: 1px solid rgba(55, 152, 222, 0.7);
-    background-color: rgba(55, 152, 222, 0.7);
+    border: 1px solid rgba(40, 125, 10, 0.5);
+    background-color: rgba(40, 125, 10, 0.5);
 }
 
 .mypage_points_confour{
@@ -58,8 +58,8 @@ html,
     height: 20%;
     left: 55%;
     top: 40%;
-    border: 1px solid rgba(55, 152, 222, 0.7);
-    background-color: rgba(55, 152, 222, 0.7);
+    border: 1px solid rgba(40, 125, 10, 0.5);
+    background-color: rgba(40, 125, 10, 0.5);
 }
 
 #pointshr_one{
@@ -122,20 +122,40 @@ html,
 
 .points_more{
     position: absolute;
-    width: 17%;
+    width: 25%;
     height: 8%;
-    left: 27%;
+    left: 37%;
     top: 75%;
-    background-color: #1A96EF;
-    border: 1px solid #1A96EF;
+    background-color: white;
+    border: 1px solid #287D0A;
+}
+
+.points_more:hover{
+    position: absolute;
+    width: 25%;
+    height: 8%;
+    left: 37%;
+    top: 75%;
+    background-color: #287D0A;
+    border: 1px solid #287D0A;
 }
 
 #points_more_span{
     position: absolute;
+    color: black;
+    font-size: 200%;
+    left: 18%;
+    top: 30%;
+    font-family: 'counselname', serif;
+}
+
+#points_more_span:hover{
+    position: absolute;
     color: white;
-    font-size: 180%;
-    left: 20%;
-    top: 25%;
+    font-size: 200%;
+    left: 18%;
+    top: 30%;
+    font-family: 'counselname', serif;
 }
 
 .points_plus{
@@ -223,3 +243,80 @@ html,
 #points_yellow{
     color:yellow;
 }
+
+#pickdatebox{
+    position: absolute;
+    border:1px solid #D8F3E3;
+    background-color: #D8F3E3;
+    width:45%;
+    height: 7%;
+    left: 55%;
+    top:60%;
+}
+
+#pickdate{
+    position: absolute;
+    font-size: 200%;
+    font-family: 'counselname', serif;
+    left: 8%;
+    top:30%;
+}
+
+#deleteschedule{
+    position: absolute;
+    width: 17%;
+    height: 80%;
+    border:1px solid black;
+    border-radius: 20%;
+    background-color: white;
+    left: 60%;
+    top:10%;
+    font-size: 130%;
+    font-family: 'counselname', serif;
+}
+
+#plusschedule{
+    position: absolute;
+    width: 17%;
+    height: 80%;
+    border:1px solid #0070FF;
+    border-radius: 20%;
+    background-color: #0070FF;
+    left: 80%;
+    top:10%;
+    font-size: 130%;
+    font-family: 'counselname', serif;
+    color: white;
+}
+
+#deleteicon {
+    position: absolute;
+    width: 40%;
+    height: 70%;
+    top:25%;
+    color: black; /* 아이콘 색상 변경 */
+    left:5%;
+  }
+
+  #deletelabel{
+    position: absolute;
+    color:black;
+    left:50%;
+    top:30%;
+  }
+
+  #addicon {
+    position: absolute;
+    width: 40%;
+    height: 70%;
+    top:25%;
+    color: white; /* 아이콘 색상 변경 */
+    left:5%;
+  }
+
+  #addlabel{
+    position: absolute;
+    color:white;
+    left:50%;
+    top:30%;
+  }

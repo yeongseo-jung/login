@@ -30,7 +30,7 @@ import '../css/My_Page_connected_center.css';
                 </tr>
                 </thead>
                 <tbody>
-                {data.map((item) => (
+                {data.map((item,index) => (
                     <tr key={item.id}>
                     <td>{item.id}</td>
                     <td>{item.name}</td>

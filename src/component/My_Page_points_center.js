@@ -58,10 +58,7 @@ import { useNavigate } from 'react-router-dom';
             </div>
             <hr id="pointshr_two"></hr>
             <button className="points_more" onClick={gotomore}>
-                <span id="points_more_span">상세 내역 보기</span>
-            </button>
-            <button className="points_plus" onClick={gotopluspoints}>
-            <span id="points_plus_span">충전하기</span>
+                <span id="points_more_span">상세 내역 보기 / 충전하기</span>
             </button>
         </div>
    </body>

@@ -5,13 +5,13 @@ html,
         margin: 0px;
       }
 
-.container_cs{
+.container_csf{
     width: 100%;
     height: 100%;
     background-image: url( "../counsel_bg.jpg" );
     background-size: 100%;
     background-repeat: no-repeat;
-    position: relative;
+    position: absolute;
 }
 
 .counselform{

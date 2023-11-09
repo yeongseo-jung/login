@@ -10,6 +10,11 @@ import My_Page_connected from "../pages/My_Page_connected";
 import '../css/My_Page_schedule_center.css';
 /* import 'react-calendar/dist/Calendar.css' */
 import Calendar from "react-calendar"; 
+import Button from '@mui/material/Button';
+import DeleteIcon from '@mui/icons-material/Delete';
+import Icon from '@mui/material/Icon';
+import AddIcon from '@mui/icons-material/Add';
+
 
   function My_Page_schedule_center() {
     const [selectedDate, setSelectedDate] = useState(new Date());
@@ -70,7 +75,7 @@ import Calendar from "react-calendar";
                 <span id="pickdayofweek_seventh">{formattedDaysixth}</span>
                 <span id="pickday_seventh">{selectedDate.getDate()+6}</span>
             </button>
-            
+
     <span id='mypage_schedule_two'>일정 설정</span>
             <hr id="schedule_hrtwo"></hr>
     <Calendar
@@ -78,7 +83,15 @@ import Calendar from "react-calendar";
         value={selectedDate}
         formatDay={(locale, date) => new Intl.DateTimeFormat(locale, { day: 'numeric'}).format(date)}
       />
+      <div id="pickdatebox">
     <span id="pickdate">{selectedDate.getDate()}일</span>
+    <button id="deleteschedule" ><Icon id='deleteicon'>
+          <DeleteIcon /> {/* Material-UI 아이콘을 Icon 컴포넌트 내에 추가 */}
+        </Icon><span id="deletelabel">삭제</span></button>
+        <button id="plusschedule" ><Icon id='addicon'>
+          <AddIcon /> {/* Material-UI 아이콘을 Icon 컴포넌트 내에 추가 */}
+        </Icon><span id="addlabel">저장</span></button>
+    </div>
     </div>
    </body>
   );

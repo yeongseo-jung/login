@@ -10,7 +10,7 @@ html,
     width: 70%;
     height: 75%;
     left: 20%;
-    top: 23%;
+    top: 18%;
 }
 
 #mypage_name{
@@ -32,9 +32,9 @@ hr{
 
 #mypage_name_two{
     position: absolute;
-    top: 13%;
+    top: 18%;
     left: 3%;
-    font-size:25px;
+    font-size:27px;
   font-weight:600;
   color:rgba(4, 35, 11,0.8);
   font-family: 'counselname', serif;
@@ -58,26 +58,43 @@ table {
   border:3px solid #CFDCE5;
   border-left: none;
   border-right: none;
-  width: 95%;
   text-align: center;
-  height: 5%;
-  padding-top:30px;
+  width: 95%;
+  font-size:24px;
+  font-weight:600;
+  color:rgba(4, 35, 11,0.8);
+  font-family: 'counselname', serif;
 }
 
 #main_tbody{
   position: relative;
   margin-top: 3%;
+  font-size:21px;
+  font-weight:600;
+  color:rgba(4, 35, 11,0.8);
+  font-family: 'counselname', serif;
 }
 
 th {
   text-align: center;
-  /* 헤더 셀 텍스트 가운데 정렬 */
+  padding-top:1%;
+  padding-bottom:1%;
 }
 
 td{
   text-align: center;
+  padding-top:1%;
+  padding-bottom:1%;
 }
 
 th, td {
   /* 라인 스타일 및 색상 설정 */
+}
+
+#gochatroom{
+  border: none;
+  background-color: #DAE2FF;
+  color: #1573FF;
+  border: 1px solid #DAE2FF;
+  border-radius: 20%;
 }

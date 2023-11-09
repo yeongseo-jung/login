@@ -55,8 +55,9 @@ import LocalParkingIcon from '@mui/icons-material/LocalParking';
       const filteredData = datatime.filter(item => {
         const itemDate = new Date(item.date);
         const targetDate = getPastMonthDate(selectedMonth);
+        const itemPoint = item.point;
     
-        return itemDate >= targetDate && itemDate <= getCurrentDate();
+        return (itemDate >= targetDate && itemDate <= getCurrentDate());
       });
   return (
    <body>
@@ -88,18 +89,33 @@ import LocalParkingIcon from '@mui/icons-material/LocalParking';
                 ></input>
             <button id="mypage_pointsplus_two">결제하기</button>
             <div id="morelist">
-            <label>조회 조건 선택: </label>
-                <select value={selectedMonth} onChange={handleSelectChange}>
+            <label id="mypage_pointplus_label">조회 조건 선택 </label>
+                <select value={selectedMonth} onChange={handleSelectChange} id="mypage_pointplus_select">
                 <option value={0}>현재 달</option>
                 <option value={1}>1개월 전</option>
                 <option value={3}>3개월 전</option>
+                <option value={3}>6개월 전</option>
+                <option value={3}>12개월 전</option>
                 </select>
-                <h2>조회된 데이터:</h2>
-            <ul>
+                <br />
+                <br />
+                <h2 id="mypage_pointsplus_three">포인트 충전/사용 내역</h2>
+                <table id="mypage_pointplus_table_two">
+                <thead id="pointsplushead">
+                    <tr>
+                        <th>날짜</th>
+                        <th>사용 포인트</th>
+                    </tr>
+            </thead>
+            <tbody  id="pointsplustbody">
                 {filteredData.map(item => (
-                <li key={item.date}>{item.date}</li>
+                <tr key={item.date}>
+                <td>{item.date}</td>
+                <td>{item.point}</td>
+                </tr>
                 ))}
-            </ul>
+            </tbody>
+                </table>
             </div>
         </div>
    </body>
